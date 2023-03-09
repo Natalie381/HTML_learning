@@ -19,44 +19,70 @@ body {
     font-style: italic;
 }
 
-.contact-items {
-    line-height: 22px;
+.header-section {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+
 }
 
-.contact-items h3 {
+.photo-description {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8693A4;
+}
+
+.news-header {
+    font-size: 22px;
+    line-height: 26px;
     font-weight: bold;
 }
 
-.contact-items address {
-    font-style: normal;
+.regata-news p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.header-participant {
+    font-size: 20px;
+}
+
+.participant-item {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.regata-news blockquote {
+    border-left-color: #00c6bd;
+    border-left-style: solid;
+    border-left-width: 2px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.author {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.author time {
+    font-weight: normal;
+    color: #8693A4;
+
 }
 
 .copyright, .policy {
     font-size: 10px;
     line-height: 12px;
-}
-
-.event-article h2 {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 34px;
-    text-decoration: underline;
-    text-decoration-color: #00c6bd;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 15px;
-    text-underline-position: under;
-
-}
-.contacts h2 {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 34px;
-    text-decoration: underline;
-    text-decoration-color: #00c6bd;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 15px;
-    text-underline-position: under;
-
 }
 
 .footer-navigation-topic h2 {
@@ -76,5 +102,17 @@ body {
     text-transform: uppercase;
     color: #163152;
     text-decoration: none;
+}
+
+.contact-items {
+    line-height: 22px;
+}
+
+.contact-items h3 {
+    font-weight: bold;
+}
+
+.contact-items address {
+    font-style: normal;
 }
 
